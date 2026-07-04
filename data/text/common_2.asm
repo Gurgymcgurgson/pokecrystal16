@@ -1549,3 +1549,8 @@ _OakText5::
 	para "That's why I study"
 	line "#MON every day."
 	prompt
+
+Text_PasswordOption::
+	text "Enter an optional"
+	line "password?"
+	prompt

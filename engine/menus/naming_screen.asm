@@ -83,6 +83,7 @@ NamingScreenJumptable:
 	dw .Friend
 	dw .Pokemon
 	dw .Pokemon
+	dw .Password
 	assert_table_length NUM_NAMING_SCREEN_TYPES
 
 .Pokemon:
@@ -191,6 +192,16 @@ NamingScreenJumptable:
 
 .FriendsNameString:
 	db "おともだち　の　なまえは？@"
+	
+.Password:
+	hlcoord 5, 2
+	ld de, .PasswordString
+	call PlaceString
+	call .StoreMonIconParams
+	ret
+	
+.PasswordString:
+	db "PASSWORD?@"
 
 .LoadSprite:
 	push de
