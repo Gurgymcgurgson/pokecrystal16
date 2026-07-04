@@ -1,5 +1,8 @@
 # 16-bit index expansion for Crystal
 
+This is a fork of the master for me to screw around with and maybe make a rom hack with. I do not intend a single bit of this to go into the main repo.
+And sorry I'm still new to the whole github thing.
+
 This repository is a modernized and rebased version of [AX6](https://github.com/aaaaaa123456789)'s work found at https://github.com/aaaaaa123456789/pokecrystal16.
 It includes additional features such as the new `expand-item-ID` branch and the `newbox`/`item-newbox` branches.
 
