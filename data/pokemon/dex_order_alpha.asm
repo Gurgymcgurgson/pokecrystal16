@@ -64,6 +64,7 @@ AlphabeticalPokedexOrder:
 	dw FERALIGATR
 	dw FLAAFFY
 	dw FLAREON
+	dw FLORAGATO
 	dw FORRETRESS
 	dw FURRET
 	dw GASTLY

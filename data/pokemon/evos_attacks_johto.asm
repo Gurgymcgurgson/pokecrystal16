@@ -102,6 +102,7 @@ EvosAttacksPointers2::
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw SprigatitoEvosAttacks
+	dw FloragatoEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1406,7 +1407,7 @@ CelebiEvosAttacks:
 	db 0 ; no more level-up moves
 	
 SprigatitoEvosAttacks:
-	db 0 ; no more evolutions
+	db EVOLVE_LEVEL, 16, FLORAGATO
 	dbw 1, SPLASH ; Leafage Implemented
 	dbw 1, SCRATCH
 	dbw 1, TAIL_WHIP
@@ -1422,3 +1423,20 @@ SprigatitoEvosAttacks:
 	dbw 36, SPLASH ; Play Rough Not Implemented
 	db 0 ; no more level-up moves
  
+FloragatoEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, SPLASH ; Leafage Implemented
+	dbw 1, SCRATCH
+	dbw 1, TAIL_WHIP
+	dbw 7, BITE
+	dbw 10, SPLASH ; Hone Claws Not Implemented
+	dbw 13, SPLASH ; Magical Leaf Not Implemented
+	dbw 15, QUICK_ATTACK
+	dbw 20, SPLASH ; Seed Bomb Not Implemented
+	dbw 24, SPLASH ; U-Turn Not Implemented
+	dbw 28, SPLASH ; Worry Seed Not Implemented
+	dbw 33, SLASH
+	dbw 38, SPLASH ; Energy Ball Not Implemented
+	dbw 42, SPLASH ; Play Rough Not Implemented
+	dbw 46, SPLASH ; Leaf Storm Not Implemented
+	db 0 ; no more level-up moves

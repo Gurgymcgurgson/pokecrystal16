@@ -1,0 +1,17 @@
+
+	const MEOWSCRADA ; fe
+	const LITTEN	 ; ff
+	const TORACAT	 ; g0
+	const INCINAROAR ; g1
+	const OSHAWOTT	 ; g2
+	const DEWOTT	 ; g3
+	const SAMUROTT	 ; g4
+
+
+	dname "MEOWSCRADA"
+	dname "LITTEN@@@@"
+	dname "TORACAT@@@"
+	dname "INCINAROAR"
+	dname "OSHAWOTT@@"
+	dname "DEWOTT@@@@"
+	dname "SAMUROTT@@"

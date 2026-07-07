@@ -256,4 +256,5 @@ PokemonNames::
 	dname "HO-OH"
 	dname "CELEBI"
 	dname "SPRIGATITO"
+	dname "FLORAGATO"
 	assert_table_length NUM_POKEMON

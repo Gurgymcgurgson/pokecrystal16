@@ -715,8 +715,8 @@ SECTION "Pics 19", ROMX
 
 SprigatitoFrontpic:	 INCBIN "gfx/pokemon/sprigatito/front.animated.2bpp.lz"
 SprigatitoBackpic:	 INCBIN "gfx/pokemon/sprigatito/back.2bpp.lz"
-INCBIN "gfx/pokemon/unown_k/front.animated.2bpp.lz"
-INCBIN "gfx/pokemon/houndour/back.2bpp.lz"
+FloragatoFrontpic:	 INCBIN "gfx/pokemon/floragato/front.animated.2bpp.lz"
+FloragatoBackpic:	 INCBIN "gfx/pokemon/floragato/back.2bpp.lz"
 INCBIN "gfx/pokemon/poliwag/back.2bpp.lz"
 INCBIN "gfx/pokemon/squirtle/back.2bpp.lz"
 INCBIN "gfx/pokemon/shuckle/back.2bpp.lz"
