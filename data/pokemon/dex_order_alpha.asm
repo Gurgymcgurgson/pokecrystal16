@@ -210,6 +210,7 @@ AlphabeticalPokedexOrder:
 	dw SNUBBULL
 	dw SPEAROW
 	dw SPINARAK
+	dw SPRIGATITO
 	dw SQUIRTLE
 	dw STANTLER
 	dw STARMIE

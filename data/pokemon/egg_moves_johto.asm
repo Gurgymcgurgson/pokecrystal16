@@ -101,6 +101,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw SprigatitoEggMoves
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -466,5 +467,13 @@ LarvitarEggMoves:
 	dw OUTRAGE
 	dw FOCUS_ENERGY
 	dw ANCIENTPOWER
+	
+SprigatitoEggMoves:
+	dw SPLASH ; Ally Switch Not Implemented
+	dw SPLASH ; Copycat Not Implemented
+	dw LEECH_SEED
+	dw SPLASH ; Petal Blizzard Not Implemented
+	dw SPLASH ; Sucker Punch Not Implemented
+
 NoEggMoves2:
 	dw -1 ; end

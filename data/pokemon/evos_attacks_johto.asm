@@ -101,6 +101,7 @@ EvosAttacksPointers2::
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
+	dw SprigatitoEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1403,3 +1404,21 @@ CelebiEvosAttacks:
 	dbw 40, BATON_PASS
 	dbw 50, PERISH_SONG
 	db 0 ; no more level-up moves
+	
+SprigatitoEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, SPLASH ; Leafage Implemented
+	dbw 1, SCRATCH
+	dbw 1, TAIL_WHIP
+	dbw 7, BITE
+	dbw 10, SPLASH ; Hone Claws Not Implemented
+	dbw 13, SPLASH ; Magical Leaf Not Implemented
+	dbw 15, QUICK_ATTACK
+	dbw 17, SPLASH ; Seed Bomb Not Implemented
+	dbw 21, SPLASH ; U-Turn Not Implemented
+	dbw 25, SPLASH ; Worry Seed Not Implemented
+	dbw 28, SLASH
+	dbw 32, SPLASH ; Energy Ball Not Implemented
+	dbw 36, SPLASH ; Play Rough Not Implemented
+	db 0 ; no more level-up moves
+ 
