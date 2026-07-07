@@ -253,4 +253,5 @@ AnimationPointers:
 	dw CelebiAnimation
 	dw SprigatitoAnimation
 	dw FloragatoAnimation
+	dw MeowscradaAnimation
 	assert_table_length NUM_POKEMON

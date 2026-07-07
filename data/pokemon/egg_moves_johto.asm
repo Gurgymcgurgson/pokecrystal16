@@ -102,7 +102,8 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw SprigatitoEggMoves
-	dw SprigatitoEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
 .IndirectEnd::
 
 ChikoritaEggMoves:

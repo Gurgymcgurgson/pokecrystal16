@@ -257,4 +257,5 @@ PokemonNames::
 	dname "CELEBI"
 	dname "SPRIGATITO"
 	dname "FLORAGATO"
+	dname "MEOWSCRADA"
 	assert_table_length NUM_POKEMON

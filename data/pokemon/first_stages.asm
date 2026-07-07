@@ -254,4 +254,5 @@ FirstEvoStages::
 	dw CELEBI
 	dw SPRIGATITO
 	dw SPRIGATITO
+	dw SPRIGATITO
 	assert_table_length NUM_POKEMON

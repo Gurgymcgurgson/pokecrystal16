@@ -255,4 +255,5 @@ MonMenuIcons:
 	db ICON_HUMANSHAPE  ; CELEBI
 	db ICON_FOX			; SPRIGATITO
 	db ICON_FOX			; FLORAGATO
+	db ICON_FOX			; MEOWSCRADA
 	assert_table_length NUM_POKEMON

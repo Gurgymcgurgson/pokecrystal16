@@ -131,6 +131,7 @@ AlphabeticalPokedexOrder:
 	dw MARILL
 	dw MAROWAK
 	dw MEGANIUM
+	dw MEOWSCRADA
 	dw MEOWTH
 	dw METAPOD
 	dw MEW

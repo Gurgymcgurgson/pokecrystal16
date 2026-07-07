@@ -253,4 +253,5 @@ AnimationIdlePointers:
 	dw CelebiAnimationIdle
 	dw SprigatitoAnimationIdle
 	dw FloragatoAnimationIdle
+	dw MeowscradaAnimationIdle
 	assert_table_length NUM_POKEMON

@@ -63,6 +63,7 @@ if  DEF(_DEBUG)
 	; useful items
 	giveitem MAX_REPEL, 99
 	giveitem MASTER_BALL, 99
+	giveitem RARE_CANDY, 99
 	; all badges
 	setflag ENGINE_ZEPHYRBADGE
 	setflag ENGINE_HIVEBADGE
@@ -138,8 +139,9 @@ if  DEF(_DEBUG)
 	loadmem wPartyMon3Moves+2, HEADBUTT
 	loadmem wPartyMon3Moves+3, WATERFALL
 	; test mons
-	givepoke SPRIGATITO, 5, NO_ITEM
-	givepoke FLORAGATO, 16, NO_ITEM
+	givepoke SPRIGATITO, 15, RARE_CANDY
+	givepoke FLORAGATO,  35, RARE_CANDY
+	givepoke MEOWSCRADA, 36, RARE_CANDY
 	; intro events
 	addcellnum PHONE_MOM
 	setmapscene PLAYERS_HOUSE_1F, $1

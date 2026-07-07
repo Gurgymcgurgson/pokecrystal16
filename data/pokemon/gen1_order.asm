@@ -255,4 +255,5 @@ Pokered_MonIndices:
 	db WOBBUFFET
 	db SPRIGATITO
 	db FLORAGATO
+	db MEOWSCRADA
 	assert_table_length NUM_POKEMON + 1

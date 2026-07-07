@@ -522,4 +522,6 @@ PokemonPicPointers::
 	dba SprigatitoBackpic
 	dba FloragatoFrontpic
 	dba FloragatoBackpic
+	dba MeowscradaFrontpic
+	dba MeowscradaBackpic
 	assert_table_length NUM_POKEMON + 1

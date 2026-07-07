@@ -255,4 +255,5 @@ NewPokedexOrder:
 	dw CELEBI
 	dw SPRIGATITO
 	dw FLORAGATO
+	dw MEOWSCRADA
 	assert_table_length NUM_POKEMON
