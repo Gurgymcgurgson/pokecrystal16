@@ -1409,6 +1409,7 @@ CelebiEvosAttacks:
 	
 SprigatitoEvosAttacks:
 	db EVOLVE_LEVEL, 16, FLORAGATO
+	db 0 ; no more evolutions
 	dbw 1, SPLASH ; Leafage Implemented
 	dbw 1, SCRATCH
 	dbw 1, TAIL_WHIP
@@ -1426,6 +1427,7 @@ SprigatitoEvosAttacks:
  
 FloragatoEvosAttacks:
 	db EVOLVE_LEVEL, 36, MEOWSCRADA
+	db 0 ; no more evolutions
 	dbw 1, SPLASH ; Leafage Implemented
 	dbw 1, SCRATCH
 	dbw 1, TAIL_WHIP
