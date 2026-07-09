@@ -254,4 +254,7 @@ AnimationIdlePointers:
 	dw SprigatitoAnimationIdle
 	dw FloragatoAnimationIdle
 	dw MeowscradaAnimationIdle
+	dw FennekinAnimationIdle
+	dw BraixenAnimationIdle
+	dw DelphoxAnimationIdle
 	assert_table_length NUM_POKEMON

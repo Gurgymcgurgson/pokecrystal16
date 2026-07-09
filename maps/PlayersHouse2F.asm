@@ -139,9 +139,9 @@ if  DEF(_DEBUG)
 	loadmem wPartyMon3Moves+2, HEADBUTT
 	loadmem wPartyMon3Moves+3, WATERFALL
 	; test mons
-	givepoke SPRIGATITO, 15, RARE_CANDY
-	givepoke FLORAGATO,  35, RARE_CANDY
-	givepoke MEOWSCRADA, 36, RARE_CANDY
+	givepoke FENNEKIN, 15, NO_ITEM
+	givepoke BRAIXEN,  35, NO_ITEM
+	givepoke DELPHOX, 36, NO_ITEM
 	; intro events
 	addcellnum PHONE_MOM
 	setmapscene PLAYERS_HOUSE_1F, $1

@@ -258,4 +258,7 @@ PokemonNames::
 	dname "SPRIGATITO"
 	dname "FLORAGATO"
 	dname "MEOWSCRADA"
+	dname "FENNEKIN"
+	dname "BRAIXEN"
+	dname "DELPHOX"
 	assert_table_length NUM_POKEMON

@@ -260,4 +260,7 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		  55,  195 ; SPRIGATITO
 	mon_cry CRY_DONPHAN,	  63,  100 ; FLORAGATO
 	mon_cry CRY_DONPHAN,	  55,  100 ; MEOWSCRADA
+	mon_cry CRY_PIDGEY,		 145,	84 ; FENNEKIN
+	mon_cry CRY_PIDGEY,		 145,	84 ; BRAIXEN
+	mon_cry CRY_PIDGEY,		 145,	84 ; DELPHOX
 	assert_table_length NUM_POKEMON

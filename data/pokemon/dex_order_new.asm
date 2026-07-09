@@ -256,4 +256,7 @@ NewPokedexOrder:
 	dw SPRIGATITO
 	dw FLORAGATO
 	dw MEOWSCRADA
+	dw FENNEKIN
+	dw BRAIXEN
+	dw DELPHOX
 	assert_table_length NUM_POKEMON

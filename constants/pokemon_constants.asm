@@ -274,6 +274,9 @@ DEF JOHTO_POKEMON EQU const_value
 	const SPRIGATITO ; fc
 	const FLORAGATO  ; fd
 	const MEOWSCRADA ; fe
+	const FENNEKIN	 ; ff
+	const BRAIXEN	 ; g1
+	const DELPHOX	 ; g2
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

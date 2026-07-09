@@ -104,6 +104,9 @@ EggMovePointers2::
 	dw SprigatitoEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw FennekinEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -476,6 +479,13 @@ SprigatitoEggMoves:
 	dw LEECH_SEED
 	dw SPLASH ; Petal Blizzard Not Implemented
 	dw SPLASH ; Sucker Punch Not Implemented
+	
+FennekinEggMoves:
+	dw SPLASH ; Copycat not Implemented
+	dw SPLASH ; Heat wave not Implemented
+	dw HYPNOSIS
+	dw SPLASH ; MAGIC ROOM not Implemented
+	dw SPLASH ; Wish not implemented
 
 NoEggMoves2:
 	dw -1 ; end

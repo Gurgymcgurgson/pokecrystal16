@@ -256,4 +256,7 @@ Pokered_MonIndices:
 	db SPRIGATITO
 	db FLORAGATO
 	db MEOWSCRADA
+	db FENNEKIN
+	db BRAIXEN
+	db DELPHOX
 	assert_table_length NUM_POKEMON + 1

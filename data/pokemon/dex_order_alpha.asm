@@ -18,6 +18,7 @@ AlphabeticalPokedexOrder:
 	dw BELLSPROUT
 	dw BLASTOISE
 	dw BLISSEY
+	dw BRAIXEN
 	dw BULBASAUR
 	dw BUTTERFREE
 	dw CATERPIE
@@ -38,6 +39,7 @@ AlphabeticalPokedexOrder:
 	dw CUBONE
 	dw CYNDAQUIL
 	dw DELIBIRD
+	dw DELPHOX
 	dw DEWGONG
 	dw DIGLETT
 	dw DITTO
@@ -61,6 +63,7 @@ AlphabeticalPokedexOrder:
 	dw EXEGGUTOR
 	dw FARFETCH_D
 	dw FEAROW
+	dw FENNEKIN
 	dw FERALIGATR
 	dw FLAAFFY
 	dw FLAREON

@@ -104,6 +104,9 @@ EvosAttacksPointers2::
 	dw SprigatitoEvosAttacks
 	dw FloragatoEvosAttacks
 	dw MeowscradaEvosAttacks
+	dw FennekinEvosAttacks
+	dw BraixenEvosAttacks
+	dw DelphoxEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1408,7 +1411,7 @@ CelebiEvosAttacks:
 	db 0 ; no more level-up moves
 	
 SprigatitoEvosAttacks:
-	db EVOLVE_LEVEL, 16, FLORAGATO
+	dbbw EVOLVE_LEVEL, 16, FLORAGATO
 	db 0 ; no more evolutions
 	dbw 1, SPLASH ; Leafage Implemented
 	dbw 1, SCRATCH
@@ -1426,7 +1429,7 @@ SprigatitoEvosAttacks:
 	db 0 ; no more level-up moves
  
 FloragatoEvosAttacks:
-	db EVOLVE_LEVEL, 36, MEOWSCRADA
+	dbbw EVOLVE_LEVEL, 36, MEOWSCRADA
 	db 0 ; no more evolutions
 	dbw 1, SPLASH ; Leafage Implemented
 	dbw 1, SCRATCH
@@ -1463,4 +1466,66 @@ FloragatoEvosAttacks:
 	dbw 52, SPLASH ; Knock Off Not Implemented
 	dbw 58, SPLASH ; Grassy Terrain Not Implemented
 	dbw 64, SPLASH ; Leaf Storm Not Implemented
+	db 0 ; no more level-up moves
+	
+	FennekinEvosAttacks:
+	dbbw EVOLVE_LEVEL, 16, BRAIXEN
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 1, TAIL_WHIP
+	dbw 5, EMBER
+	dbw 11, SPLASH ; Howl not Implemented
+	dbw 14, SPLASH ; flame charge not Implemented
+	dbw 17, PSYBEAM
+	dbw 20, FIRE_SPIN
+	dbw 25, LIGHT_SCREEN
+	dbw 31, SPLASH ; psyshock
+	dbw 35, FLAMETHROWER
+	dbw 38, SPLASH ; Will-O-Wisp not Implemented
+	dbw 41, PSYCHIC_M
+	dbw 43, SUNNY_DAY
+	dbw 48, FIRE_BLAST
+	db 0 ; no more level-up moves
+	
+	BraixenEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, DELPHOX
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 1, TAIL_WHIP
+	dbw 1, EMBER
+	dbw 11, SPLASH ; Howl not Implemented
+	dbw 14, SPLASH ; flame charge not Implemented
+	dbw 18, PSYBEAM
+	dbw 22, FIRE_SPIN
+	dbw 28, LIGHT_SCREEN
+	dbw 36, SPLASH ; psyshock
+	dbw 41, FLAMETHROWER
+	dbw 45, SPLASH ; Will-O-Wisp not Implemented
+	dbw 49, PSYCHIC_M
+	dbw 52, SUNNY_DAY
+	dbw 56, SPLASH ; Magic Room
+	dbw 59, FIRE_BLAST
+	db 0 ; no more level-up moves
+	
+	DelphoxEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, EMBER
+	dbw 1, FUTURE_SIGHT
+	dbw 1, SPLASH ; Howl not Implemented
+	dbw 1, SPLASH ; roleplay not Implemented
+	dbw 2, SCRATCH
+	dbw 2, SHADOW_BALL
+	dbw 2, SPLASH ; Switcheroo not Implemented
+	dbw 2, TAIL_WHIP
+	dbw 14, SPLASH ; flame charge not Implemented
+	dbw 18, PSYBEAM
+	dbw 22, FIRE_SPIN
+	dbw 28, LIGHT_SCREEN
+	dbw 38, SPLASH ; psyshock
+	dbw 45, FLAMETHROWER
+	dbw 51, SPLASH ; Will-O-Wisp not Implemented
+	dbw 57, PSYCHIC_M
+	dbw 62, SUNNY_DAY
+	dbw 68, SPLASH ; Magic Room not implemented
+	dbw 74, FIRE_BLAST
 	db 0 ; no more level-up moves

@@ -256,4 +256,7 @@ MonMenuIcons:
 	db ICON_FOX			; SPRIGATITO
 	db ICON_FOX			; FLORAGATO
 	db ICON_FOX			; MEOWSCRADA
+	db ICON_FOX			; FENNEKIN
+	db ICON_FOX			; BRAIXEN
+	db ICON_FOX			; DELPHOX
 	assert_table_length NUM_POKEMON
