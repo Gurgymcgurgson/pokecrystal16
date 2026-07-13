@@ -257,4 +257,7 @@ AnimationPointers:
 	dw FennekinAnimation
 	dw BraixenAnimation
 	dw DelphoxAnimation
+	dw PopplioAnimation
+	dw BrionneAnimation
+	dw PrimarinaAnimation
 	assert_table_length NUM_POKEMON

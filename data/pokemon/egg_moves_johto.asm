@@ -107,6 +107,9 @@ EggMovePointers2::
 	dw FennekinEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw PopplioEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -486,6 +489,9 @@ FennekinEggMoves:
 	dw HYPNOSIS
 	dw SPLASH ; MAGIC ROOM not Implemented
 	dw SPLASH ; Wish not implemented
+	
+PopplioEggMoves:
+	dw PERISH_SONG
 
 NoEggMoves2:
 	dw -1 ; end

@@ -530,4 +530,10 @@ PokemonPicPointers::
 	dba BraixenBackpic
 	dba DelphoxFrontpic
 	dba DelphoxBackpic
+	dba PopplioFrontpic
+	dba PopplioBackpic
+	dba BrionneFrontpic
+	dba BrionneBackpic
+	dba PrimarinaFrontpic
+	dba PrimarinaBackpic
 	assert_table_length NUM_POKEMON + 1

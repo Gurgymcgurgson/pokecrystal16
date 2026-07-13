@@ -259,4 +259,7 @@ Pokered_MonIndices:
 	db FENNEKIN
 	db BRAIXEN
 	db DELPHOX
+	db POPPLIO
+	db BRIONNE
+	db PRIMARINA
 	assert_table_length NUM_POKEMON + 1

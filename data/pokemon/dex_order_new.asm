@@ -2,6 +2,15 @@
 
 NewPokedexOrder:
 	table_width 2
+	dw SPRIGATITO
+	dw FLORAGATO
+	dw MEOWSCRADA
+	dw FENNEKIN
+	dw BRAIXEN
+	dw DELPHOX
+	dw POPPLIO
+	dw BRIONNE
+	dw PRIMARINA
 	dw CHIKORITA
 	dw BAYLEEF
 	dw MEGANIUM
@@ -253,10 +262,4 @@ NewPokedexOrder:
 	dw MEWTWO
 	dw MEW
 	dw CELEBI
-	dw SPRIGATITO
-	dw FLORAGATO
-	dw MEOWSCRADA
-	dw FENNEKIN
-	dw BRAIXEN
-	dw DELPHOX
 	assert_table_length NUM_POKEMON

@@ -263,4 +263,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,		 145,	84 ; FENNEKIN
 	mon_cry CRY_PIDGEY,		 145,	84 ; BRAIXEN
 	mon_cry CRY_PIDGEY,		 145,	84 ; DELPHOX
+	mon_cry CRY_PIDGEY,		 145,	84 ; POPPLIO
+	mon_cry CRY_PIDGEY,		 145,	84 ; BRIONNE
+	mon_cry CRY_PIDGEY,		 145,	84 ; PRIMARINA
 	assert_table_length NUM_POKEMON

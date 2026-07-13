@@ -284,4 +284,7 @@ INCLUDE "data/pokemon/base_stats/meowscrada.asm"
 INCLUDE "data/pokemon/base_stats/fennekin.asm"
 INCLUDE "data/pokemon/base_stats/braixen.asm"
 INCLUDE "data/pokemon/base_stats/delphox.asm"
+INCLUDE "data/pokemon/base_stats/popplio.asm"
+INCLUDE "data/pokemon/base_stats/brionne.asm"
+INCLUDE "data/pokemon/base_stats/primarina.asm"
 .IndirectEnd::

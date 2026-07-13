@@ -257,4 +257,7 @@ BitmasksPointers:
 	dw FennekinBitmasks
 	dw BraixenBitmasks
 	dw DelphoxBitmasks
+	dw PopplioBitmasks
+	dw BrionneBitmasks
+	dw PrimarinaBitmasks
 	assert_table_length NUM_POKEMON

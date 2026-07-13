@@ -258,4 +258,7 @@ PokedexDataPointerTable:
 	dba FennekinPokedexEntry
 	dba BraixenPokedexEntry
 	dba DelphoxPokedexEntry
+	dba PopplioPokedexEntry
+	dba BrionnePokedexEntry
+	dba PrimarinaPokedexEntry
 	assert_table_length NUM_POKEMON

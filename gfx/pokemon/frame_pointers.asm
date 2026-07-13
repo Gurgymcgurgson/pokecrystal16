@@ -257,4 +257,7 @@ FramesPointers:
 	dba FennekinFrames
 	dba BraixenFrames
 	dba DelphoxFrames
+	dba PopplioFrames
+	dba BrionneFrames
+	dba PrimarinaFrames
 	assert_table_length NUM_POKEMON

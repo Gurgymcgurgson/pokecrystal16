@@ -259,4 +259,7 @@ MonMenuIcons:
 	db ICON_FOX			; FENNEKIN
 	db ICON_FOX			; BRAIXEN
 	db ICON_FOX			; DELPHOX
+	db ICON_LUGIA	 	; POPPLIO
+	db ICON_LUGIA	 	; BRIONNE
+	db ICON_LUGIA	 	; PRIMARINA
 	assert_table_length NUM_POKEMON

@@ -261,4 +261,7 @@ PokemonNames::
 	dname "FENNEKIN"
 	dname "BRAIXEN"
 	dname "DELPHOX"
+	dname "POPPLIO"
+	dname "BRIONNE"
+	dname "PRIMARINA"
 	assert_table_length NUM_POKEMON

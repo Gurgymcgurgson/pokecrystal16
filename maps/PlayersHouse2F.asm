@@ -64,6 +64,7 @@ if  DEF(_DEBUG)
 	giveitem MAX_REPEL, 99
 	giveitem MASTER_BALL, 99
 	giveitem RARE_CANDY, 99
+	verbosegiveitem HM_FLY
 	; all badges
 	setflag ENGINE_ZEPHYRBADGE
 	setflag ENGINE_HIVEBADGE
@@ -123,25 +124,12 @@ if  DEF(_DEBUG)
 	setflag ENGINE_FLYPOINT_FUCHSIA
 	setflag ENGINE_FLYPOINT_SAFFRON
 	setflag ENGINE_FLYPOINT_CINNABAR
+	setflag ENGINE_FLYPOINT_GURGS_HOME
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
-	; good party
-	givepoke MEWTWO, 100, BRIGHTPOWDER
-	; hm slaves
-	givepoke MEW, 100, LEFTOVERS
-	givepoke MEW, 100, LEFTOVERS
-	loadmem wPartyMon2Moves+0, FLY
-	loadmem wPartyMon2Moves+1, SURF
-	loadmem wPartyMon2Moves+2, STRENGTH
-	loadmem wPartyMon2Moves+3, CUT
-	loadmem wPartyMon3Moves+0, FLASH
-	loadmem wPartyMon3Moves+1, ROCK_SMASH
-	loadmem wPartyMon3Moves+2, HEADBUTT
-	loadmem wPartyMon3Moves+3, WATERFALL
-	; test mons
-	givepoke FENNEKIN, 15, NO_ITEM
-	givepoke BRAIXEN,  35, NO_ITEM
-	givepoke DELPHOX, 36, NO_ITEM
+	; Mons
+	givepoke DELPHOX, 100, NO_ITEM
+	givepoke PIDGEOT, 100, NO_ITEM
 	; intro events
 	addcellnum PHONE_MOM
 	setmapscene PLAYERS_HOUSE_1F, $1

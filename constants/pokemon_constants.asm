@@ -277,6 +277,9 @@ DEF JOHTO_POKEMON EQU const_value
 	const FENNEKIN	 ; ff
 	const BRAIXEN	 ; g1
 	const DELPHOX	 ; g2
+	const POPPLIO	 ; g3
+	const BRIONNE	 ; g4
+	const PRIMARINA	 ; g5
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

@@ -107,6 +107,9 @@ EvosAttacksPointers2::
 	dw FennekinEvosAttacks
 	dw BraixenEvosAttacks
 	dw DelphoxEvosAttacks
+	dw PopplioEvosAttacks
+	dw BrionneEvosAttacks
+	dw PrimarinaEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1528,4 +1531,30 @@ FloragatoEvosAttacks:
 	dbw 62, SUNNY_DAY
 	dbw 68, SPLASH ; Magic Room not implemented
 	dbw 74, FIRE_BLAST
+	db 0 ; no more level-up moves
+
+	PopplioEvosAttacks:
+	dbbw EVOLVE_LEVEL, 17, BRIONNE
+	db 0 ; no more evolutions
+	dbw 1, GROWL
+	dbw 1, POUND
+	dbw 1, WATER_GUN
+	dbw 1, SPLASH
+	db 0 ; no more level-up moves
+	
+	BrionneEvosAttacks:
+	dbbw EVOLVE_LEVEL, 34, PRIMARINA
+	db 0 ; no more evolutions
+	dbw 1, GROWL
+	dbw 1, POUND
+	dbw 1, WATER_GUN
+	dbw 1, SPLASH
+	db 0 ; no more level-up moves
+	
+	PrimarinaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, GROWL
+	dbw 1, POUND
+	dbw 1, WATER_GUN
+	dbw 1, SPLASH
 	db 0 ; no more level-up moves

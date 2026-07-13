@@ -257,5 +257,8 @@ FirstEvoStages::
 	dw SPRIGATITO
 	dw FENNEKIN	  ;g0
 	dw FENNEKIN
-	dw FENNEKIN 
+	dw FENNEKIN
+	dw POPPLIO
+	dw POPPLIO
+	dw POPPLIO
 	assert_table_length NUM_POKEMON

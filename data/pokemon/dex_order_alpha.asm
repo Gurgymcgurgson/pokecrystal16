@@ -19,6 +19,7 @@ AlphabeticalPokedexOrder:
 	dw BLASTOISE
 	dw BLISSEY
 	dw BRAIXEN
+	dw BRIONNE
 	dw BULBASAUR
 	dw BUTTERFREE
 	dw CATERPIE
@@ -176,8 +177,10 @@ AlphabeticalPokedexOrder:
 	dw POLIWHIRL
 	dw POLIWRATH
 	dw PONYTA
+	dw POPPLIO
 	dw PORYGON
 	dw PORYGON2
+	dw PRIMARINA
 	dw PRIMEAPE
 	dw PSYDUCK
 	dw PUPITAR

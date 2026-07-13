@@ -258,5 +258,8 @@ INCBIN "gfx/footprints/meowscrada.1bpp"
 INCBIN "gfx/footprints/fennekin.1bpp"
 INCBIN "gfx/footprints/braixen.1bpp"
 INCBIN "gfx/footprints/delphox.1bpp"
+INCBIN "gfx/footprints/popplio.1bpp"
+INCBIN "gfx/footprints/brionne.1bpp"
+INCBIN "gfx/footprints/primarina.1bpp"
 
 	assert_table_length NUM_POKEMON
