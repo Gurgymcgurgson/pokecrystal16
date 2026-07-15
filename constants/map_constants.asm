@@ -500,9 +500,5 @@ ENDM
 	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
 	endgroup
-	
-	newgroup GURGSHOME									   		  ; 27
-	map_const GURGS_HOME,								   15,  9 ;  1
-	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 27
+DEF NUM_MAP_GROUPS EQU const_value ; 26

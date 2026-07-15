@@ -105,7 +105,3 @@
 ; group 26 (Cherrygrove)
 	RGB 31,14,28, 31,05,21 ; morn/day
 	RGB 14,07,17, 13,00,08 ; nite
-	
-; group 27 (Gurgs Home
-	RGB 22,20,10, 17,14,03 ; morn/day
-	RGB 11,11,05, 10,09,07 ; nite
