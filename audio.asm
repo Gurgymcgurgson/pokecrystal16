@@ -149,6 +149,9 @@ SECTION "Extra Songs 2", ROMX
 
 INCLUDE "audio/music/postcredits.asm"
 
+SECTION "New Songs", ROMX
+
+INCLUDE "audio/music/approachingcynthia.asm"
 
 SECTION "Sound Effects", ROMX
 
